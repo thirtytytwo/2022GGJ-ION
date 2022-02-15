@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - RebornPoint
+  - GameManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - H
+  - O
+  - Cl
+  - Na
+  - Player
+  - H2O
+  - Fe
+  - NaCl
+  - H2
+  - HCl
+  - C
+  - O2
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 40609813
+    locked: 0
+  - name: Plateform
+    uniqueID: 2154755987
+    locked: 0
+  - name: Prop
+    uniqueID: 3033850435
+    locked: 0
+  - name: Player
+    uniqueID: 4135499385
+    locked: 0
+  - name: Foreground
+    uniqueID: 4028067701
+    locked: 0

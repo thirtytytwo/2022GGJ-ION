@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2830108496313714725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7434962887581922060}
+  - component: {fileID: 4276244072018979645}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7434962887581922060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2830108496313714725}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4276244072018979645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2830108496313714725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c721583da0b8cd04f9935c2079dd6000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicClip:
+  - {fileID: 8300000, guid: 897ef2a2e489b144da6c1f6d00c2a142, type: 3}
+  - {fileID: 8300000, guid: b7f71012913f7b24aa22cc7213abee5a, type: 3}
+  - {fileID: 8300000, guid: c4a77070bde41c745adfa79e552dcd91, type: 3}
+  - {fileID: 8300000, guid: f16dd4f979f3e4041ace807c0995d569, type: 3}
+  - {fileID: 8300000, guid: a0147e324349d124998397751013cd0d, type: 3}
+  - {fileID: 8300000, guid: 7a2736ff3fa91c640bce6c5b527e7bba, type: 3}
+  - {fileID: 8300000, guid: c9fab986f641e28408305210811d8def, type: 3}
+  WakeStepClips:
+  - {fileID: 8300000, guid: 02da3f571ea466f4489bedde40f4bfc2, type: 3}
+  - {fileID: 8300000, guid: 7d31f191deb330f4f8c398f7f700b1db, type: 3}
+  - {fileID: 8300000, guid: 571873ff5c57fb94aa8079273afbb2cb, type: 3}
+  - {fileID: 8300000, guid: 8a7bb1d3faab5bf4587b870689936ae2, type: 3}
+  Jumplip: {fileID: 8300000, guid: 031edb52abe188c449d91862e9750854, type: 3}
+  f: {fileID: 8300000, guid: 393aff1a8010fd342841ac6928e219a6, type: 3}
+  l: {fileID: 8300000, guid: bf6597fc4cda6414b9376b9c5965e9d1, type: 3}
+  deadClip: {fileID: 8300000, guid: e3ae09b27b03ba845a0ffd2cc6380ef5, type: 3}
+  catchClip: {fileID: 8300000, guid: bf2189b428e3a914f8f6b19cfb5c0b28, type: 3}
+  throwClip: {fileID: 8300000, guid: d0c9fff9c9354154cb409517c3097e1f, type: 3}
+  WinLevelClip: {fileID: 0}
